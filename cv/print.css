@@ -1,0 +1,29 @@
+/* Ensure the content spans the full width */
+html, body {font-size: 12px;}
+
+#container, #container2, #content
+{
+width: 100%; margin: 0; padding: 0; float: none;
+}
+
+#mainArea {
+	padding: 0 0 0 20px;
+}
+
+#page {
+	width: 100%;
+	margin: 0; padding: 0;
+	background: none;
+}
+
+.keySkills li{
+display:inline;
+padding-right: 5px;
+}
+
+.sectionContent {
+	float: right;
+	width: 75%;
+}
+
+.sectionContent H2 {page-break-before: always}

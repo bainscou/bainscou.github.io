@@ -8,11 +8,20 @@
 <meta charset="UTF-8"> 
 
 <link type="text/css" rel="stylesheet" href="style.css">
+<link rel="stylesheet" media="print" href="print.css" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
 
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40996947-1', 'auto');
+  ga('require', 'displayfeatures'); // Enable advertising reporting remove line to disable
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body id="top">
 <div id="cv" class="instaFade">
@@ -29,8 +38,11 @@
 		<div id="contactDetails" class="quickFade delayFour">
 			<ul>
 				<li>e: <a href="mailto:b.ainscough@wustl.edu" target="_blank">b.ainscough@wustl.edu</a></li>
-				<li>w: <a href="http://psoda2.cs.byu.edu/~bainscou/CV/">http://psoda2.cs.byu.edu/~bainscou/CV/</a></li>
-				<li>m: (720)937-0066</li>
+				<li>a: Campus Box 8501</li> 
+				<li>   4444 Forest Park Ave</li>
+				<li>   Saint Louis, MO 63108</li>
+				<li>w: (314)747-9284</li>
+<!-- 				<li>m: (720)937-0066</li> -->
 			</ul>
 		</div>
 		<div class="clear"></div>
@@ -61,6 +73,8 @@
 				<article>
 					<h2>Washington University in Saint Louis</h2>
 					<p class="subDetails">Ph.D. Human Statistical Genetics</p>
+					<p class="subDetails">Advisors: Elaine R Mardis PhD, Obi L Griffith PhD</p>
+<!-- 					<p class="subDetails">Insert thesis title here</p> -->
 					<p class="subDetails">2012-2017(expected)</p>
 				</article>
 				
@@ -77,37 +91,110 @@
 		
 		<section>
 			<div class="sectionTitle">
+				<h1>Executive Summary</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<p>
+					I am interested in using cutting-edge data mining methodologies to solve 
+					disparate real world problems in academia and industry. Most recently in the 
+					academic sphere, I have been leveraging huge datasets to tranlate genetic data 
+					to clinical care. Specifically, I have lead a team of developers to produce a 
+					web resource, <a   href="http://docm.genome.wustl.edu" target="_blank">DoCM,</a> 
+					that facilitates the curation of cancer-causing mutations in the academic 
+					literature. Similarly, I developed a machine learning model that automates the manual 
+					review of cancer mutations to eliminate false positives. Additionally, I created 
+					a start-up to produce an app that uses machine learning to allow users to easily 
+					create healthy meal plans which won a national student start up competition.</p>
+				</article>
+				
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<div class="sectionTitle">
 				<h1>Research Experience</h1>
 			</div>
 			
 			<div class="sectionContent">
 				
 				<article>
-					<h2>Graduate Research Assistant (Thesis lab)</h2>
+					<h2>Ph.D Candidate</h2>
 					<p class="subDetails">Advisors: Elaine Mardis PhD, Obi Griffith PhD</p>
 					<p class="subDetails">2013-Present</p>
-					<p>Cancer Genomics</p>
+					<p>My thesis is focus on using machine learning, data curation, and software 
+					development to identify and prioritize cancer mutations from whole genome 
+					sequence data. Specifically, this involved leading the development and curation
+					of <a   href="http://docm.genome.wustl.edu" target="_blank">DoCM, the 
+					database of curated mutations,</a> published in <a   href="http://www.nature.com/nmeth/journal/v13/n10/full/nmeth.4000.html" target="_blank">Nature Methods</a>. 
+					Additionally, I developed a novel machine learning model that automates the 
+					laborious process of manually reviewing putative somatic cancer mutations for 
+					false positives.
+				</article>
+				
+				<article>
+					<h2>Cancer Biology Pathway Fellow</h2>
+					<p class="subDetails">Siteman Cancer Center</p>
+					<p class="subDetails">2014-2016</p>
+					<p>The Cancer Biology Pathway Fellowship is designed to train pre and postdoctoral students in interdisciplinary research relevant to cancer biology. Fellows shadow oncologists from various departments to give them an understanding in clinical cancer care. They also participate in coursework that teaches them about current clinical problems and how to bridge the gap between research and clinical practice.</p>
 				</article>
 				
 				<article>
 					<h2>Graduate Rotation Research Assistant</h2>
-					<p class="subDetails">Advisors:  Nancy Saccone PhD,  Rob Mitra PhD,  Rakesh Nagarajan PhD,  Alison Goate DPhil</p>
+					<p class="subDetails">Advisors:  Nancy Saccone PhD,  Rob Mitra PhD,  Rakesh Nagarajan PhD,  Alison Goate PhD</p>
 					<p class="subDetails">2012-13</p>
-					<p>Rotated in both "wet" and "dry" lab environments performing a variety of tasks from cell culture to statistical/bioinformatic programming. Worked on a variety of disease systems and biological problems ranging from cell fate decisions to cancer to Alzheimer's disease.</p>
+					<p>Rotated in both "wet" and "dry" lab environments performing a variety of tasks from cell culture to statistical/bioinformatic programming. Worked on a variety of disease systems and biological problems ranging from cell fate decisions to Alzheimer's disease.</p>
+				</article>
+				
+				<!-- 
+<article>
+					<h2>Graduate Research Assistant</h2>
+					<p class="subDetails">Advisor: Nancy Saccone PhD</p>
+					<p class="subDetails">2013</p>
+					<p>Conducted a literature review on different bioinformatic approaches for functional annotation of variants to be used in Meta-analysis of nicotine dependence.</p>
+				</article>
+				
+				
+				<article>
+					<h2>Graduate Research Assistant</h2>
+					<p class="subDetails">Advisor: Rob Mitra PhD</p>
+					<p class="subDetails">2013</p>
+					<p>Used the "Calling Card" method to interrogate the effect of the transcription factor SOX10 on cell fate decisions of neuronal stem cells.</p>
+				</article>
+
+				
+				<article>
+					<h2>Graduate Research Assistant</h2>
+					<p class="subDetails">Advisor: Rakesh Nagarajan MD PhD</p>
+					<p class="subDetails">2013</p>
+					<p>Developed a command line tool that predicts mutated genes given a set of phenotypes.</p>
 				</article>
 				
 				<article>
+					<h2>Graduate Research Assistant</h2>
+					<p class="subDetails">Advisor: Alison Goate PhD</p>
+					<p class="subDetails">2012</p>
+					<p>Performed quantitative PCR and statistical analyses in R to determine the effect of the gene FABP3 on Alzheimer's Disease.</p>
+				</article>
+ -->
+				
+				<article>
 					<h2>Undergraduate Research Assistant</h2>
-					<p class="subDetails">Advisor: John S K Kauwe PhD</p>
+					<p class="subDetails">Advisor: John S. K. Kauwe PhD</p>
 					<p class="subDetails">2011 - 2012</p>
-					<p>Performed statistical analysis on a structural gene project to determine genetic effect of biomarkers</p>
+					<p>Performed statistical analysis determine genetic relationshop of biomarkers 
+					in Alzheimer's Disease.</p>
 				</article>
 				
 				<article>
 					<h2>Undergraduate Research Assistant</h2>
 					<p class="subDetails">Advisor: Keith A. Crandall PhD</p>
 					<p class="subDetails">2009 - 2011</p>
-					<p>Performed sanger sequencing and computation to estimate the phylogeny of the freshwater crayfish genus Fallicambarus. Results published in Zoologica Scripta and as Undergraduate Honors Thesis.</p>
+					<p>Performed sanger sequencing and computation to estimate the phylogeny of the
+					 freshwater crayfish genus Fallicambarus. Results published in Zoologica Scripta
+					  and as Undergraduate Honors Thesis.</p>
 				</article>
 			</div>
 			<div class="clear"></div>
@@ -115,14 +202,44 @@
 		
 		<section>
 			<div class="sectionTitle">
-				<h1>Programming Experience</h1>
+				<h1>Work Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Founder/ Co-leader, SnapPEAs</h2>
+					<p class="subDetails">September 2015 - Present</p>
+					<p>Assembled a team of 12 students to create SaaS-markeplace app, using machine 
+					learning, to promote healthy eating through meal planning and better management 
+					of grocers’ inventory.</p>
+					<p>
+						<ul>	
+							<li>Raised over $8,000 in funding</li>
+							<li>Won <a   href="http://idealabsincubator.org" target="_blank">IDEA labs</a> Demo Day 2016 - Idea Labs is a national student-run biotech incubator</li>
+							<li>Won the Washington University Skandalaris Center Fall 2015 Idea Bounce Competition.</li>
+							<li>Semi-finalist in 2016 Washington University Skandalaris Center Cup</li>
+							<li>Finalist in the 2016 Social Enterprise and Innovation Competition</li>
+						</ul>
+					</p>
+				</article>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Consultant, The BALSA Group</h2>
+					<p class="subDetails">March 2015 - Present</p>
+					<p>Advised 3 companies in real estate, agriculture and ag-tech performing due 
+					diligence, profitability, and market entry analyses</p>
+				</article>
 			</div>
 			
 			<div class="sectionContent">
 				<article>
 					<h2>Back-end Web Developer at BYU Broadcasting</h2>
 					<p class="subDetails">April 2011 - November 2011</p>
-					<p>Worked on the back end web development of the BYUtv website as well as the BYUtvSports website using the .Net framework and C#. Performed database creation, manipulation and modification with SQL and noSQL databases. Created and maintained web services.</p>
+					<p>Worked on the back end web development of the BYUtv and BYUtv Sports website 
+					using the .Net framework and C#. Performed database creation, manipulation and 
+					modification with SQL and noSQL databases. Created and maintained web services.</p>
 				</article>
 				
 
@@ -138,13 +255,17 @@
 			
 			<div class="sectionContent">
 				<ul class="keySkills">
-					<li>Bioinformatics</li>
-					<li>Computatinal Biology</li>
+					<li>Machine Learning</li>
+					<li>Data Visualization</li>
+					<li>Data Analysis</li>
+					<li>Statistics</li>
 					<li>Supercomputing</li>
+					<li>Bioinformatics</li>
+					<li>Computational Biology</li>
 					<li>Molecular Biology</li>
 					<li>Phylogenetics</li>
-					<li>Statistics</li>
 					<li>Genetics</li>
+					
 				</ul>
 			</div>
 			<div class="clear"></div>
@@ -157,28 +278,42 @@
 			
 			<div class="sectionContent">
 				<ul class="keySkills">
-					<li>Java</li>
+					<li>Python</li>
+					<li>R</li>
 					<li>C++</li>
+					<li>Java</li>
 					<li>C#</li>
 					<li>Perl</li>
-					<li>Python</li>
 					<li>SQL</li>
 					<li>couchDB(noSQL)</li>
-					<li>R</li>
 					<li>Unix</li>
 					<li>XML</li>
 					<li>HTML</li>
 					<li>CSS</li>
 					<li>MVC</li>
 					<li>Agile Development</li>
-					<li>Subversion</li>
+					<li>Git</li>
 				</ul>
 			</div>
 			<div class="clear"></div>
 		</section>
 		
 
-		
+		<section>
+			<div class="sectionTitle">
+				<h1>Research Support</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<strong>
+				   2014-2016
+				</strong>
+				 <span>
+					Cancer Biology Pathway Fellow, Siteman Cancer Center, $57,000
+				 </span>
+			</div>
+			<div class="clear"></div>
+		</section>
 		
 		<section>
 			<div class="sectionTitle">
@@ -187,6 +322,7 @@
 			
 			<div class="sectionContent">
 				<ul class="awards">
+					<li>Best Application, 2014 NoB Hackathon</li>
 					<li>University Honors, BYU</li>
 					<li>S. Paul and	Hilda F. Stewart Scholarship, BYU Biology Department</li>
 					<li>Honors Thesis Research Grant, BYU Honors Program</li>
@@ -208,26 +344,302 @@
 				<h1>Publications</h1>
 			</div>
 			<div  class="sectionContent">
+			
+				<article>
+					<h2 id="link"><a   href="http://www.nature.com/nmeth/journal/v13/n10/full/nmeth.4000.html" target="_blank">DoCM: a database of curated mutations in cancer</a></h2>
+					<p class="subDetails">Nature Methods</p>
+					<p class="subDetails">September 29, 2016</p>
+					<ul class="authors">
+						<li id="BoldMyName">Ainscough, BJ,</li>
+						<li>Griffith, M,</li>
+						<li>Coffman, AC,</li>
+						<li>Wagner, AH,</li>
+						<li>Kunisaki, J,</li>
+						<li>Choudhary, MN,</li>
+						<li>McMichael, JF,</li>
+						<li>Fulton, R,</li>
+						<li>Wilson, RK</li>
+						<li>Griffith, OL,</li>
+						<li>Mardis, ER,</li>
+					</ul>
+				</article>
+				
+				<article>
+					<h2 id="link"><a   href="http://dx.doi.org/10.1016/j.exphem.2016.04.011" target="_blank">Comprehensive genomic analysis reveals <em>FLT3</em> activation and a therapeutic strategy for a patient with relapsed adult B lymphoblastic leukemia</a></h2>
+					<p class="subDetails">Experimental Hematology</p>
+					<p class="subDetails">May 15, 2016</p>
+					<ul class="authors">
+						<li>Griffith, M,</li>
+						<li>Griffith, OL,</li>
+						<li>Krysiak, K,</li>
+						<li>Skidmore, ZL,</li>
+						<li>Christopher, MJ,</li>
+						<li>Klco, JM,</li>
+						<li>Ramu, A,</li>
+						<li>Lamprecht, TL,</li>
+						<li>Wagner, AH,</li>
+						<li>Campbell, KM,</li>
+						<li>Lesurf, R,</li>
+						<li>Hundal, J,</li>
+						<li>Zhang, J,</li>
+						<li>Spies, NC,</li>
+						<li id="BoldMyName">Ainscough, BJ,</li>
+						<li>Larson, DE,</li>
+						<li>Heath, SE,</li>
+						<li>Fronick, C,</li>
+						<li>O'Laughlin, Shelly</li>
+						<li>Fulton, R,</li>
+						<li>Magrini, V,</li>
+						<li>McGrath, S,</li>
+						<li>Smith, SM,</li>
+						<li>Miller, CA,</li>
+						<li>Maher, CA,</li>
+						<li>Payton, JE,</li>
+						<li>Walker, JR,</li>
+						<li>Eldred, JM,</li>
+						<li>Walter, MJ,</li>
+						<li>Link, DC,</li>
+						<li>Graubert, TA,</li>
+						<li>Westervelt, P,</li>
+						<li>Kulkarni, S,</li>
+						<li>DiPersio, JF,</li>
+						<li>Mardis, ER,</li>
+						<li>Wilson, RK,</li>
+						<li>Ley, TJ</li>
+					</ul>
+				</article>
+			
+				<article>
+					<h2 id="link"><a   href="http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0953-9" target="_blank">High-performance web services for querying gene and variant annotation</a></h2>
+					<p class="subDetails">Genome Biology</p>
+					<p class="subDetails">May 6, 2016</p>
+					<ul class="authors">
+						<li>Xin, J,</li>
+						<li>Mark A,</li>
+						<li>Afrasiabi A,</li>
+						<li>Tseung G,</li>
+						<li>Juchler M,</li>
+						<li>Gopal N,</li>
+						<li>Stupp GS,</li>
+						<li>Putman TE,</li>
+						<li id="BoldMyName">Ainscough BJ,</li>
+						<li>Griffith OL,</li>
+						<li>Torkamani A,</li>
+						<li>Whetzel PL,</li>
+						<li>Mungall CJ,</li>
+						<li>Mooney SD,</li>
+						<li>Su AI,</li>
+						<li>Wu C</li>
+					</ul>
+				</article>
+				
+				
+				<article>
+					<h2 id="link"><a   href="http://nar.oxfordjournals.org/content/early/2015/11/02/nar.gkv1165.full" target="_blank">DGIdb 2.0: mining clinically relevant drug–gene interactions</a></h2>
+					<p class="subDetails">Nucleic Acids Research</p>
+					<p class="subDetails">November 3, 2015</p>
+					<ul class="authors">
+						<li>Wagner AH,</li>
+						<li>Coffman AC,</li>
+						<li id="BoldMyName">Ainscough BJ,</li>
+						<li>Spies NC,</li>
+						<li>Skidmore ZL,</li>
+						<li>Campbell KM,</li>
+						<li>Krysiak K,</li>
+						<li>Pan D,</li>
+						<li>McMichael JF,</li>
+						<li>Eldred JM,</li>
+						<li>Walker JR,</li>
+						<li>Wilson RK,</li>
+						<li>Mardis ER,</li>
+						<li>Griffith M,</li>
+						<li>Griffith OL</li>
+					</ul>
+				</article>
+				
+				<article>
+					<h2 id="link"><a   href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004393" target="_blank">Informatics for RNA-seq: A web resource for analysis on the cloud</a></h2>
+					<p class="subDetails">PLoS Computational Biology</p>
+					<p class="subDetails">August 6, 2015</p>
+					<ul class="authors">
+						<li>Griffith M,</li>
+						<li>Walker JR,</li>
+						<li>Spies NC,</li>
+						<li id="BoldMyName">Ainscough BJ,</li>
+						<li>Griffith OL</li>
+					</ul>
+				</article>
+				
+				<article>
+					<h2 id="link"><a   href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004274" target="_blank">Genome Modeling System: A Knowledge Management Platform for Genomics</a></h2>
+					<p class="subDetails">PLoS Computational Biology</p>
+					<p class="subDetails">July 9, 2015</p>
+					<p class="subDetails">*These authors contributed equally to this work</p>
+					<ul class="authors">
+						<li>Griffith M*,</li>
+						<li>Griffith OL*,</li>
+						<li>Smith SM*,</li>
+						<li>Ramu A,</li>
+						<li>Callaway MB,</li>
+						<li>Brummett AM,</li>
+						<li>Kiwala M,</li>
+						<li>Coffmann AC,</li>
+						<li>Regier AA,</li>
+						<li>Oberkfell BJ,</li>
+						<li>Sanderson GE,</li>
+						<li>Mooney TP,</li>
+						<li>Nutter N,</li>
+						<li>Belter EA,</li>
+						<li>Du F,</li>
+						<li>Long RL,</li>
+						<li>Abbott TE,</li>
+						<li>Ferguson I,</li>
+						<li>Morton D,</li>
+						<li>Burnett M,</li>
+						<li>Weible JV,</li>
+						<li>Peck JB,</li>
+						<li>Dukes A,</li>
+						<li>McMichael JF,</li>
+						<li>Lolofie JT,</li>
+						<li>Derickson BR,</li>
+						<li>Hundall J,</li>
+						<li>Skidmore ZL,</li>
+						<li id="BoldMyName">Ainscough BJ,</li>
+						<li>Dees ND,</li>
+						<li>Schierding WS,</li>
+						<li>Kandoth C,</li>
+						<li>Kim K,</li>
+						<li>Lu C,</li>
+						<li>Harris CC,</li>
+						<li>Maher N,</li>
+						<li>Maher CA,</li>
+						<li>Magrini VJ,</li>
+						<li>Abbott BS,</li>
+						<li>Chen K,</li>
+						<li>Clark E,</li>
+						<li>Das I,</li>
+						<li>Fan X,</li>
+						<li>Hawkins AE,</li>
+						<li>Hepler TG,</li>
+						<li>Wylie TN,</li>
+						<li>Leonard S,</li>
+						<li>Schroeder WE,</li>
+						<li>Shi X,</li>
+						<li>Carmichael KL,</li>
+						<li>Weil M,</li>
+						<li>Wohldstadter RW,</li>
+						<li>Stiehr G,</li>
+						<li>McLellan MD,</li>
+						<li>Pohl CS,</li>
+						<li>Miller CA,</li>
+						<li>Koboldt DC,</li>
+						<li>Walker JR,</li>
+						<li>Eldred JM,</li>
+						<li>Larson DE,</li>
+						<li>Dooling DJ,</li>
+						<li>Ding L,</li>
+						<li>Mardis ER,</li>
+						<li>Wilson RK</li>
+					</ul>
+					
+				</article>
+			
+				<article>
+					<h2 id="link"><a   href="http://www.nature.com/nature/journal/vaop/ncurrent/full/nature13948.html" target="_blank">Loss of PTEN leads to clinical resistance to the PI3Kα inhibitor BYL719 and provides evidence of convergent evolution under selective therapeutic pressure.</a></h2>
+					<p class="subDetails">Nature</p>
+					<p class="subDetails">November 17, 2014</p>
+					<p class="subDetails">*These authors contributed equally to this work</p>
+					<ul class="authors">
+						<li>Juric D*,</li>
+						<li>Castel P*,</li>
+						<li>Griffith M,</li>
+						<li>Griffith OL,</li>
+						<li>Won HH,</li>
+						<li>Ellis H,</li>
+						<li>Ebbesen S,</li>
+						<li id="BoldMyName">Ainscough BJ,</li>
+						<li>Ramu A,</li>
+						<li>Iyer G,</li>
+						<li>Shah RH,</li>
+						<li>Huynh T,</li>
+						<li>Mino-Kenudson M,</li>
+						<li>Sgroi D,</li>
+						<li>Isakoff S,</li>
+						<li>Thabet A,</li>
+						<li>Elamine L,</li>
+						<li>Solit D,</li>
+						<li>Lowe S,</li>
+						<li>Quadt C,</li>
+						<li>Peters M,</li>
+						<li>Adnan Derti,</li>
+						<li>Huang A,</li>
+						<li>Mardis ER,</li>
+						<li>Berger MF,</li>
+						<li>Baselga J,</li>
+						<li>Scaltriti M</li>
+					</ul>
+					
+				</article>
+				
+				<article>
+					<h2 id="link"><a   href="http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.1004758" target="_blank">Genome-Wide Association Study of CSF Levels of 59 Alzheimer's Disease Candidate Proteins: Significant Associations with Proteins Involved in Amyloid Processing and Inflammation</a></h2>
+					<p class="subDetails">PLoS Genetics</p>
+					<p class="subDetails">October 23, 2014</p>
+					<ul class="authors">
+						<li>Kauwe JSK,</li>
+						<li>Bailey M,</li>
+						<li>Ridge PG,</li>
+						<li>Perry R,</li>
+						<li>Wadsworth ME,</li>
+						<li>Hoyt KL,</li>
+						<li>Staley LA,</li>
+						<li>Karch CM,</li>
+						<li>Harari O,</li>
+						<li>Cruchaga C,</li>
+						<li id="BoldMyName">Ainscough BJ,</li>
+						<li>Bales K,</li>
+						<li>Pickering EH,</li>
+						<li>Bertelsen S,</li>
+						<li>ADNI,</li>
+						<li>Fagan AM,</li>
+						<li>Holtzman DM,</li>
+						<li>Morris JC,</li>
+						<li>Goate AM</li>
+						
+					</ul>
+					
+				</article>
+
+				<article>
+					<h2 id="link"><a   href="http://genomebiology.com/2014/15/8/438" target="_blank">Organizing knowledge to enable personalization of medicine in cancer</a></h2>
+					<p class="subDetails">Genome Biology</p>
+					<p class="subDetails">August 27, 2014</p>
+					<ul class="authors">
+					    <li>Good BM,</li>
+						<li id="BoldMyName">Ainscough BJ,</li>
+						<li>McMichael JF,</li>
+						<li>Su AI,</li>
+						<li>Griffith OL,</li>
+					</ul>
+				</article>
+								
 				<article>
 					<h2 id="link"><a   href="http://www.biologicalpsychiatryjournal.com/article/S0006-3223(14)00018-3/abstract" target="_blank">Ptau-Aβ42 ratio as a continuous trait for biomarker discovery for early stage Alzheimer’s disease in multiplex immunoassay panels of Cerebrospinal fluid</a></h2>
 					<p class="subDetails">Biological Psychiatry</p>
 					<p class="subDetails">January 21, 2014</p>
 					<ul class="authors">
-					    <li>Oscar Harari</li>
-						<li>Carlos Cruchaga</li>
-						<li>John S.K. Kauwe</li>
-						<li id="BoldMyName">Benjamin J. Ainscough</li>
-						<li>Kelly Bales</li>
-						<li>Eve. H Pickering</li>
-						<li>Sarah Bertelsen</li>
-						<li>Anne M. Fagan</li>
-						<li>David M. Holtzman</li>
-						<li>John C. Morris</li>
-						<li>Alison M. Goate</li>
+					    <li>Harari O,</li>
+						<li>Cruchaga C,</li>
+						<li>Kauwe JSK,</li>
+						<li id="BoldMyName">Ainscough BJ,</li>
+						<li>Bales K,</li>
+						<li>Pickering EH,</li>
+						<li>Bertelsen S,</li>
+						<li>Fagan AM,</li>
+						<li>Holtzman DM,</li>
+						<li>Morris JC,</li>
+						<li>Goate AM</li>
 					</ul>
-					
-					
-					
 				</article>
 				
 			
@@ -238,10 +650,10 @@
 					<p class="subDetails">Zoologica Scripta</p>
 					<p class="subDetails">January 4, 2013</p>
 					<ul class="authors">
-						<li id="BoldMyName">Benjamin J. Ainscough</li>
-						<li>Jesse W. Breinholt</li>
-						<li>Henry W. Robison</li>
-						<li>Keith A. Crandall</li>
+						<li id="BoldMyName">Ainscough BJ,</li>
+						<li>Breinholt JW,</li>
+						<li>Robison HW,</li>
+						<li>Crandall KA</li>
 					</ul>
 					
 					
@@ -254,8 +666,120 @@
 			
 
 			<div class="clear"></div>
+		
+		
+		
 		</section>
 		
+		<section>
+			<div class="sectionTitle">
+				<h1>Oral Presentations</h1>
+			</div>
+			<div  class="sectionContent">
+				 <article>
+					<h2>DoCM: a database of curated mutations in cancer rescues clinically relevant mutations</h2>
+					<p class="subDetails">Genome Informatics</p>
+					<p class="subDetails">Hinxton, Cambridgeshire, UK</p>
+					<p class="subDetails">September 21, 2016</p>
+				</article>
+				<article>
+					<h2>Identifying clinically important somatic mutations through a knowledge-based approach</h2>
+					<p class="subDetails">AACR Translation of the Cancer Genome</p>
+					<p class="subDetails">San Fransisco, Ca</p>
+					<p class="subDetails">February 7, 2015</p>
+				</article>
+			    <article>
+					<h2>Leveraging a curated variant database for knowledge-based variant detection</h2>
+					<p class="subDetails">Human and Statistical Genetics Program Retreat</p>
+					<p class="subDetails">Washington University in Saint Louis</p>
+					<p class="subDetails">September 26, 2014</p>
+				</article>
+			</div>
+			
+
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Poster Presentations</h1>
+			</div>
+			<div  class="sectionContent">
+			    <article>
+					<h2>Rescuing somatic mutations using a knowledge-based approach</h2>
+					<p class="subDetails">Advances in Genome Biology and Technology</p>
+					<p class="subDetails">Marco Island, FL</p>
+					<p class="subDetails">February 27, 2015</p>
+				</article>
+			    <article>
+					<h2>Identifying clinically important somatic mutations through  a knowledge-based approach</h2>
+					<p class="subDetails">AACR Translation of the Cancer Genome</p>
+					<p class="subDetails">San Fransisco, Ca</p>
+					<p class="subDetails">February 8, 2015</p>
+				</article>
+				
+			    <article>
+					<h2>Clinical sequencing analysis using the Genome Modeling System</h2>
+					<p class="subDetails">Human and Statistical Genetics Program Retreat (WashU)</p>
+					<p class="subDetails">Washington University in Saint Louis</p>
+					<p class="subDetails">October 11, 2013</p>
+				</article>
+				<article>
+					<h2>Digging up the Molecular Relationships of the Freshwater Crayfish Fallicambarus (Decapoda: Astacidae)</h2>
+					<p class="subDetails">Evolution 2010</p>
+					<p class="subDetails">Portland, OR</p>
+					<p class="subDetails">June 25-29, 2010</p>
+				</article>
+				
+			
+			</div>
+			
+
+			<div class="clear"></div>
+		</section>
+		
+	<!-- 
+	<section>
+			<div class="sectionTitle">
+				<h1>Scientific Conferences Attended</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="conferencesAttended">
+					<li>Evolution 2010</li>
+					<li>AGBT 2014</li>
+					<li>Network of Bio-things Hackathon 2014</li>
+					<li>AACR Translation of the Cancer Genome 2015</li>
+					<li>AGBT 2015</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>		
+	
+ -->	
+		<section>
+			<div class="sectionTitle">
+				<h1>Teaching and Training Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Graduate Teaching Assistant</h2>
+					<p class="subDetails">Bio 2950 - Introduction to Environmental Biology</p>
+					<p class="subDetails">Washington University in Saint Louis</p>
+					<p class="subDetails">Fall 2013</p>
+					<p class="subDetails">Graded term projects. Met with student groups individually and 
+					mentored them on improving term projects. Organized review sessions.</p>
+				</article>
+				<article>
+					<h2>Student Mentoring</h2>
+					<p class="subDetails">Jason Kunisaki, Undergraduate, Washington University</p>
+					<p class="subDetails">Mayank Choudhary, Graduate Rotation Student, Washington University</p>
+				</article>
+				
+			</div>
+			<div class="clear"></div>
+		</section>		
 		
 		<section>
 			<div class="sectionTitle">
@@ -264,27 +788,59 @@
 			
 			<div class="sectionContent">
 				<article>
+					<h2>Young Men President</h2>
+					<p class="subDetails">Lindell Ward - The Church of Jesus Christ of Latter-day Saints</p>
+					<p class="subDetails">2014-present</p>
+					<p class="subDetails">As the Young Men President I lead the Young Men organization, 
+					which consist of a presidency of 3-4 adult leaders and 5-9 youth leaders. 
+					Responsibilities include implementing the curriculum for activities and regular 
+					lessons, planning and overseeing activities to promote the growth and development 
+					of the boys in the program.</p>
+				</article>
+				<article>
+					<h2>Committee Chairman</h2>
+					<p class="subDetails">Boy Scouts of America</p>
+					<p class="subDetails">2012-present</p>
+					<p class="subDetails">In conjunction with the Lindell ward Young Men organization,
+					 implementing overseeing the scouting program in the Lindell ward.</p>
+				</article>
+				<article>
+					<h2>Founder/ Organizer, Cancer Informatics Journal Club</h2>
+					<p class="subDetails">McDonnell Genome Institute</p>
+					<p class="subDetails">2014-2016</p>
+				</article>
+				<article>
+					<h2>Young Men Second Counselor</h2>
+					<p class="subDetails">Lindell Ward - The Church of Jesus Christ of Latter-day Saints</p>
+					<p class="subDetails">2012-2014</p>
+					<p class="subDetails">Executed the plans and direction of the Young Men President.
+					 This includes teaching lessons, planning and arranging for quality activities 
+					 and overseeing the boys individual development</p>
+				</article>
+				<article>
 					<h2>College of Life Sciences Representative</h2>
-					<p class="subDetails">BYU Student Advisory Concil</p>
+					<p class="subDetails">BYU Student Advisory Council</p>
 					<p class="subDetails">2010-2011</p>
 				</article>
-				
+				<article>
+					<h2>Missionary</h2>
+					<p class="subDetails">Washington Everett Mission - The Church of Jesus Christ of Latter-day Saints</p>
+					<p class="subDetails">2007-2009</p>
+					<p class="subDetails">Full time volunteer. Performed a variety of functions 
+					including teaching, proselyting and community service. Assigned to learn and 
+					speak Spanish. During my service I trained new missionaries, organized and 
+					taught english classes and organized spanish language congregations.</p>
+				</article>
 				
 			</div>
 			<div class="clear"></div>
 		</section>
 		
+		
+
+		
 	</div>
 </div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-40996947-1', 'byu.edu');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>
